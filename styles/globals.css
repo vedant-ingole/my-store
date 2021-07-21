@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: rgb(236, 236, 236);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +14,68 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  
+  /* padding: 30px; */
+}
+
+.root-cards{
+  padding: 30px;
+}
+
+.card-price {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.card{
+  margin: auto ;
+  width: 20rem;
+  height: 27rem;
+}
+.signup-card {
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  margin:  30px auto;
+  width: 50%;
+  height: auto;
+  color: rgb(82, 82, 82);
+}
+.signup-card > h3{
+  font-weight: bolder;
+   margin-bottom: 45px;
+}
+
+/* img{
+  height: 100px;
+  width: 70px;
+} */
+
+label {
+   font-weight: bolder;
+   font-size: large;
+   /* padding: 20px; */
+}
+form{
+  padding: 20px;
+}
+input{
+  margin-bottom: 20px;
+}
+
+.redirect {
+  background: rgba(85, 179, 255, 0.863);
+  height: auto;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 3px;
+  /* width: 100px; */
+  padding: 15px;
+ 
 }
